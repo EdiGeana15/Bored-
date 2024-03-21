@@ -1,4 +1,4 @@
-                                       # BORED? 
+                                       #BORED? 
 
-                                       ### OK,
+                                       ###OK,
                         https://edigeana15.github.io/Bored-question-mark-/
