@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Me</title>
+    <style>
+      .container {
+        border: 5px outset rgb(251, 196, 129);
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        padding: 50px 100px;
+        box-shadow: 0px 15px 0 10px rgba(47, 43, 43, 0.847);
+        border-radius: 5px;
+        background-color: rgba(224, 191, 151, 0.847);
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 50px;
+        cursor: pointer;
+        color: #151515;
+        transition: transform 0.2s, box-shadow 0.2s;
+        text-decoration: none;
+      }
+
+      .container:active {
+        box-shadow: 0 0 10px #333;
+        transform: translateY(20px);
+      }
+
+      @media screen and (max-width: 600px) {
+        .container {
+          padding: 30px 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 10px;
+          height: 50px;
+          font-size: 20px;
+          overflow: hidden;
+        }
+      }
+
+      html {
+        background-color: #fbda61;
+        background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+        background-size: cover;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="container" href="image.png">CLICK ME SLOWLY</a>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
